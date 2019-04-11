@@ -1,0 +1,27 @@
+$(document).ready(function () {
+  
+  $('#Designer').click(function() {
+           window.location.href = 'http://designer-rudi-gernreich-portfolio.com/designer/designer.html';
+    	});
+
+  $('#Dresses').click(function() {
+           window.location.href = 'http://designer-rudi-gernreich-portfolio.com/dresses/dresses.html';
+
+        });
+  $('#Swimsuits').click(function() {
+           window.location.href = 'http://designer-rudi-gernreich-portfolio.com/swimsuits/swimsuits.html';
+
+        });
+  $('#Underwears').click(function() {
+           window.location.href = 'http://designer-rudi-gernreich-portfolio.com/underwears/underwears.html';
+
+        });
+  $('#Shoes').click(function() {
+           window.location.href = 'http://designer-rudi-gernreich-portfolio.com/shoes/shoes.html';
+
+        });
+   $("#element").toggleClass("blink");
+ 
+  });
+
+    

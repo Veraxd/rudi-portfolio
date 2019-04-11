@@ -1,0 +1,338 @@
+<style>
+.rectangle {
+  height: 15px;
+  width: 15px;
+  background-color: #000000;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 50px;
+}
+.rectangle2 {
+  height: 30px;
+  width: 30px;
+  background-color: #818181;
+  position: absolute;
+  margin-left: 5px;
+}
+.rectangle5 {
+  height: 10px;
+  width: 15px;
+  background-color: #9C8AA9;
+  position: absolute;
+  margin-left: 1130px;
+  margin-top: 50px;
+  animation: blink 1s 3s linear infinite alternate;
+}
+.rectangle6 {
+  height: 15px;
+  width: 20px;
+  background-color: #AFA1BA;
+  position: absolute;
+  margin-left: 1090px;
+  margin-top: 47px;
+
+}
+
+.rectangle7 {
+  height: 10px;
+  width: 15px;
+  background-color: #D7CFDC;
+  position: absolute;
+  margin-left: 1050px;
+  margin-top: 50px;
+  animation: blink 1s 2s linear infinite alternate;
+}
+
+.rectangle8 {
+  height: 15px;
+  width: 20px;
+  background-color: #9C8AA9;
+  position: absolute;
+  margin-left: 1010px;
+  margin-top: 47px;
+}
+
+.rectangle9 {
+  height: 10px;
+  width: 15px;
+  background-color: #AFA1BA;
+  position: absolute;
+  margin-left: 970px;
+  margin-top: 50px;
+  animation: blink 1s 3s linear infinite alternate;
+}
+
+.rectangle10 {
+  height: 15px;
+  width: 20px;
+  background-color: #C3B8CB;
+  position: absolute;
+  margin-left: 930px;
+  margin-top: 47px;
+}
+
+.rectangle11 {
+  height: 10px;
+  width: 15px;
+  background-color: #D7CFDC;
+  position: absolute;
+  margin-left: 890px;
+  margin-top: 50px;
+  animation: blink 1s 2s linear infinite alternate;
+}
+
+.rectangle12 {
+  height: 15px;
+  width: 20px;
+  background-color: #9C8AA9;
+  position: absolute;
+  margin-left: 850px;
+  margin-top: 47px;
+
+}
+
+.rectangle13 {
+  height: 10px;
+  width: 15px;
+  background-color: #AFA1BA;
+  position: absolute;
+  margin-left: 810px;
+  margin-top: 50px;
+  animation: blink 1s 3s linear infinite alternate;
+}
+
+.rectangle14 {
+  height: 15px;
+  width: 20px;
+  background-color: #C3B8CB;
+  position: absolute;
+  margin-left: 770px;
+  margin-top: 47px;
+}
+
+.rectangle15 {
+  height: 10px;
+  width: 15px;
+  background-color: #D7CFDC;
+  position: absolute;
+  margin-left: 730px;
+  margin-top: 50px;
+  animation: blink 1s 2s linear infinite alternate;
+}
+
+.rectangle16 {
+  height: 20px;
+  width: 15px;
+  background-color: #EAE7ED;
+  position: absolute;
+  margin-left: 710px;
+  margin-top: 17px;
+}
+
+.rectangle17 {
+  height: 10px;
+  width: 15px;
+  background-color: #9C8AA9;
+  position: absolute;
+  margin-left: 670px;
+  margin-top: 7px;
+  animation: blink 1s 3s linear infinite alternate;
+}
+.rectangle91 {
+  height: 10px;
+  width: 15px;
+  background-color: #AFA1BA;
+  position: absolute;
+  margin-left: 1210px;
+  margin-top: 50px;
+  animation: blink 1s 3s linear infinite alternate;
+}
+
+.rectangle101 {
+  height: 15px;
+  width: 20px;
+  background-color: #EAE7ED;
+  position: absolute;
+  margin-left: 1170px;
+  margin-top: 47px;
+  blink 1s 3s linear infinite alternate;
+}
+
+.h1 {
+    font-family: Bahnschrift, Bold Condensed;
+    font-size: 70px;
+    margin-left: 5vw;
+}
+
+.h2 {
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-size: 55px;
+  position: center;
+  margin-top: 90px;
+  margin-left: 10px;
+  color: #565454; 
+  font-weight: normal;
+  
+}
+
+.ul {
+  list-style-type: none;
+  margin: 0/5vw;
+  height: 50px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  margin-top: -30px;
+}
+
+.li {
+  float: left;
+}
+
+.li a {
+   display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 11px 15px;
+  margin-right: 0px;
+  margin-left: 100px;
+  text-decoration: none;
+  font-family: Bahnschrift, SemiLight SemiCondensed;
+  font-size: 25px;
+  
+}
+
+.li a:hover {
+  background-color: #808080;
+  padding: 15px 15px;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 280px;
+  right: 420px;
+  color: white;
+  text-orientation: initial;
+}
+
+.hr{
+  margin-top: 40px;
+}
+
+.line1 { width:25%; height:2px; background: #626161;
+position: absolute;
+left: 30px;
+margin-top: 50px;
+}
+
+.line2 { width:66%; height:2px; background: #626161;
+position: absolute;
+left: 400px;
+margin-top: 50px;
+}
+.h2{
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-size: 55px;
+  position: center;
+  margin-top: 90px;
+  margin-left: 25px;
+  color: #565454;  
+}
+
+p{
+  text-align: left;
+  position: absolute;
+  color: #666565;
+  font-family: bold;
+  margin-left: 25px;
+  line-height: 25pt;
+  font-size: 20px;
+}
+
+.boxed1 {
+  border: 25px solid lavender;
+  width:349px;
+  height:253px;
+  margin-top: -80px;
+  margin-left: 400px;
+}
+
+
+.line3 { width:25%; height:2px; background: #626161;
+position: absolute;
+left: 30px;
+margin-top: 450px;
+}
+
+.line4 { width:66%; height:2px; background: #626161;
+position: absolute;
+left: 400px;
+margin-top: 455px;
+}
+
+.h3{
+  margin-top: -310px;
+  margin-left: 820px;
+}
+
+.p2{
+  padding-left: 10pt; 
+  padding-right: 10pt;
+  margin-left: 820px;
+  margin-top: 10px;
+  font-size: 15px;
+  
+}
+
+.rectangle3 {
+  height: 30px;
+  width: 30px;
+  background-color: #C3B8CB;
+  position: absolute;
+  margin-left: 330px;
+  margin-top: 235px;
+  animation: blink 1s linear infinite alternate;
+}
+
+.rectangle4 {
+  height: 25px;
+  width: 25px;
+  background-color: #D7CFDC;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 280px;
+  animation: blink 2s linear infinite alternate;
+}
+.rectangle18 {
+  height: 15px;
+  width: 15px;
+  background-color: #EAE7ED;
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 180px;
+  animation: blink 3s linear infinite alternate;
+}
+
+.h4{
+  margin-top: 260px;
+  margin-left: 820px;
+  font-size: 18px;
+  font-family: bold;
+  text-decoration: underline wavy purple;
+
+}
+@keyframes blink {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+</style>
+<script type="text/javascript">
+</script>
